@@ -1,21 +1,289 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: rgba(57, 57, 57, 1);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.Main-header {
+  margin-top: 25px;
+}
+.menu-icon {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .nav-bar {
+    margin-left: 32%;
   }
 }
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .nav-bar {
+    margin-left: 27%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .nav-bar {
+    margin-left: 18%;
+  }
+}
+@media screen and (max-width: 879px) {
+  .nav-bar {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nav-bar {
+    display: none; /* Сховати h2 */
+  }
+  .menu-icon {
+    margin-top: -5%;
+    margin-left: 90%;
+    display: block;
+  }
+}
+.navigation {
+  display: inline;
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+  max-width: 500px;
+  margin-right: 2%;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.navigation:hover {
+  transition: 0.2s;
+  color: #dc0000;
+}
+.page-now {
+  display: inline;
+  margin-left: 5%;
+  margin-top: 2%;
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.page-now:hover {
+  transition: 0.2s;
+  color: #dc0000;
+}
+.Wrapper {
+  background-image: url('./bg.png');
+  display: flex;
+  min-height: 92.5vh;
+  background-size: cover; 
+}
+.me {
+  margin-left: 13%;
+  margin-top: 8%;
+  width: 500px;
+  height: 650px;
+}
+.Info {
+  background: #B9B9B9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 550px;
+}
+.ffd {
+  align-items: end;
+  text-align: right;
+  font-size: 100px;
+}
+.initials {
+  display: flow-root;
+  margin-top: 29%;
+  margin-left: 5%;
+}
+.white {
+  font-size: 100px;
+  font-weight: 900;
+  color: #D9D9D9;
+}
+.whitek {
+  font-size: 100px;
+  font-weight: 900;
+  color: #D9D9D9;
+}
+.red {
+  font-size: 30px;
+  font-weight: 900;
+  color: #dc0000;
+}
+.studying-title {
+  font-size: 100px;
+  font-weight: 900;
+  color: #ffff;
+}
+.studying-school {
+  font-size: 20px;
+  font-weight: 900;
+  color: #ffff;
+}
+.studying-group {
+  font-size: 20px;
+  font-weight: 900;
+  color: #000000;
+  margin-top: 1%;
+}
+.studying-links {
+  background-color: #772222;
+  width: 400px;
+  margin-top: 30px;
+  height: 50px;
+  color: #ffff;
+  padding-top: 25px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 900;
+}
+footer {
+  height: 172px;
+  background-color: #D9D9D9;
+}
+.follow {
+  margin-left: 30px;
+  padding-top: 5%;
+  font-size: 20px;
+  font-weight: 900;
+}
+.social {
+  position: absolute;
+  display: inline;
+  margin-left: 13%;
+  margin-top: -1.8%;
+}
+.facebook {
+  margin-left: 10px;
+}
+.ampli {
+  padding-left: 1000px;
+  margin-top: 200px;
+}
+.ampli-text {
+  color: #dc0000;
+  margin-left: 1290px;
+  font-weight: 900;
+  margin-top: -1.5%;
+}
+.contact-wrapper {
+  display: flow-root;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  height: 500px;
+  max-width: 1920px;
+  color: #D9D9D9;
+  font-size: 30px;
+}
+.contact-links {
+  background-color: #772222;
+  width: 400px;
+  margin-top: 50px;
+  height: 50px;
+  display: flow-root;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 36%;
+  color: #ffff;
+  padding-top: 25px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+}
+.home-wrapper {
+  background-image: url('./emirates.jpg');
+  background-size: cover; 
+  display: flow-root;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -320px;
+  height: 900px;
+  max-width: 1920px;
+  color: #D9D9D9;
+  font-size: 30px;
+}
+.title-catch {
+  padding-top: 360px;
+  margin-left: -400px;
+}
+.title-help {
+  margin-left: -300px;
+}
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  height: 1px;
+  max-width: 1920px;
+  background-color: white;
+  z-index: 40;
+}
+.search {
+  height: 100%;
+  background: #bbbbbb;
+  display: flow-root;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  padding-top: 30px;
 
+}
+.select {
+  margin-left: 33%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 500px;
+}
+.date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 35px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+input {
+  margin-left: 10px;
+  color: #bbbbbb;
+  width: 200px;
+}
+.classroom-link {
+  width: 500px;
+  height: 50px;
+  color: #000000;
+  padding-top: 25px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+}
+button {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+  background: #ffffff;
+  color: #000000;
+
+}
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #a01a1a;
+  font-weight: 900;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,16 +291,58 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.character {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: left;
+  color: #000000;
+  background: #ffffff;
+}
+.character img {
+  width: 100%;
+  border-radius: 10px;
+}
+.RikMorty {
+  background: #536858;
+}
+.film-input {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  height: 48px;
+  margin-right: 20px;
+  width: 200px;
+  background: #ffffff;
+  color: #000000;
+}
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.movie {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: left;
+  color: #000000;
+  background: #ffffff;
+}
+.movie img {
+  width: 100%;
+  border-radius: 10px;
+}
+.bg-films {
+  background: #536858;
 }

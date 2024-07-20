@@ -1,0 +1,23 @@
+[
+    { "name": "Los Angeles International", "iata": "LAX" },
+    { "name": "New York John F. Kennedy International", "iata": "JFK" },
+    { "name": "Amsterdam Schiphol", "iata": "AMS", "country": "Netherlands" },
+    { "name": "Berlin Brandenburg", "iata": "BER", "country": "Germany" },
+    { "name": "Paris Charles de Gaulle", "iata": "CDG", "country": "France" },
+    { "name": "Adolfo Suárez Madrid–Barajas", "iata": "MAD", "country": "Spain" },
+    { "name": "Rome Leonardo da Vinci–Fiumicino", "iata": "FCO", "country": "Italy" },
+    { "name": "Heathrow", "iata": "LHR", "country": "United Kingdom" },
+    { "name": "Vienna International", "iata": "VIE", "country": "Austria" },
+    { "name": "Zurich", "iata": "ZRH", "country": "Switzerland" },
+    { "name": "Copenhagen", "iata": "CPH", "country": "Denmark" },
+    { "name": "Lisbon Humberto Delgado", "iata": "LIS", "country": "Portugal" },
+    { "name": "Chicago O'Hare International", "iata": "ORD", "country": "USA" },
+    { "name": "San Francisco International", "iata": "SFO", "country": "USA" },
+    { "name": "Miami International", "iata": "MIA", "country": "USA" },
+    { "name": "Dallas/Fort Worth International", "iata": "DFW", "country": "USA" },
+    { "name": "Denver International", "iata": "DEN", "country": "USA" },
+    { "name": "Hartsfield-Jackson Atlanta International", "iata": "ATL", "country": "USA" },
+    { "name": "Seattle-Tacoma International", "iata": "SEA", "country": "USA" },
+    { "name": "Boston Logan International", "iata": "BOS", "country": "USA" }
+  ]
+  
