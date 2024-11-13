@@ -12,6 +12,6 @@ I want to tell you about me home  page. I made ticket searching menu, where you 
 
 For my project, I was using react-router-dom, react-select, and Material UI libraries.
 
-What about me, I am Vlad, 14 years old, from Lviv-Ukraine. This year entering to college. Studying Front-end for 2 years, and others for 4. I have finished "Grand" school (IT School).
+What about me, I am Vlad, 15 years old, from Lviv-Ukraine. This year entered to college. Studying Front-end for 2 years, and others for 4. I have finished "Grand" school (IT School).
 
-Link to this site - .
+Link to this site - https://final-ampli.onrender.com .
